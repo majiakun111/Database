@@ -9,6 +9,14 @@
 /* Begin PBXBuildFile section */
 		5B1F8DA61CA0488E0036764D /* DatabaseQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B1F8DA51CA0488E0036764D /* DatabaseQueue.m */; };
 		5B1F8DA91CA057780036764D /* Database+Transaction.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B1F8DA81CA057780036764D /* Database+Transaction.m */; };
+		5B1F8DB01CA189E70036764D /* Record.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B1F8DAF1CA189E70036764D /* Record.m */; };
+		5B1F8DB31CA189FE0036764D /* Record+DDL.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B1F8DB21CA189FE0036764D /* Record+DDL.m */; };
+		5B1F8DB61CA18A140036764D /* Record+DML.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B1F8DB51CA18A140036764D /* Record+DML.m */; };
+		5B1F8DB91CA18A200036764D /* Record+DQL.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B1F8DB81CA18A200036764D /* Record+DQL.m */; };
+		5B1F8DBD1CA18D9A0036764D /* DatabaseDAO.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B1F8DBC1CA18D9A0036764D /* DatabaseDAO.m */; };
+		5B1F8DC41CA19F760036764D /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B1F8DC31CA19F760036764D /* Person.m */; };
+		5B1F8DCB1CA2B3390036764D /* NSObject+Record.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B1F8DCA1CA2B3390036764D /* NSObject+Record.m */; };
+		5B25540D1CA2F29A004A5D74 /* Record+Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B25540C1CA2F29A004A5D74 /* Record+Additions.m */; };
 		5B5223951C9FE30A0059875B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B5223941C9FE30A0059875B /* main.m */; };
 		5B5223981C9FE30A0059875B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B5223971C9FE30A0059875B /* AppDelegate.m */; };
 		5B52239B1C9FE30A0059875B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B52239A1C9FE30A0059875B /* ViewController.m */; };
@@ -24,6 +32,23 @@
 		5B1F8DA51CA0488E0036764D /* DatabaseQueue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DatabaseQueue.m; sourceTree = "<group>"; };
 		5B1F8DA71CA057780036764D /* Database+Transaction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Database+Transaction.h"; sourceTree = "<group>"; };
 		5B1F8DA81CA057780036764D /* Database+Transaction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Database+Transaction.m"; sourceTree = "<group>"; };
+		5B1F8DAE1CA189E70036764D /* Record.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Record.h; sourceTree = "<group>"; };
+		5B1F8DAF1CA189E70036764D /* Record.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Record.m; sourceTree = "<group>"; };
+		5B1F8DB11CA189FE0036764D /* Record+DDL.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Record+DDL.h"; sourceTree = "<group>"; };
+		5B1F8DB21CA189FE0036764D /* Record+DDL.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Record+DDL.m"; sourceTree = "<group>"; };
+		5B1F8DB41CA18A140036764D /* Record+DML.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Record+DML.h"; sourceTree = "<group>"; };
+		5B1F8DB51CA18A140036764D /* Record+DML.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Record+DML.m"; sourceTree = "<group>"; };
+		5B1F8DB71CA18A200036764D /* Record+DQL.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Record+DQL.h"; sourceTree = "<group>"; };
+		5B1F8DB81CA18A200036764D /* Record+DQL.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Record+DQL.m"; sourceTree = "<group>"; };
+		5B1F8DBB1CA18D9A0036764D /* DatabaseDAO.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DatabaseDAO.h; sourceTree = "<group>"; };
+		5B1F8DBC1CA18D9A0036764D /* DatabaseDAO.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DatabaseDAO.m; sourceTree = "<group>"; };
+		5B1F8DC21CA19F760036764D /* Person.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		5B1F8DC31CA19F760036764D /* Person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
+		5B1F8DC81CA23FE40036764D /* RecordHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RecordHeader.h; sourceTree = "<group>"; };
+		5B1F8DC91CA2B3390036764D /* NSObject+Record.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+Record.h"; sourceTree = "<group>"; };
+		5B1F8DCA1CA2B3390036764D /* NSObject+Record.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+Record.m"; sourceTree = "<group>"; };
+		5B25540B1CA2F29A004A5D74 /* Record+Additions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Record+Additions.h"; sourceTree = "<group>"; };
+		5B25540C1CA2F29A004A5D74 /* Record+Additions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Record+Additions.m"; sourceTree = "<group>"; };
 		5B5223901C9FE30A0059875B /* Database.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Database.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5B5223941C9FE30A0059875B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		5B5223961C9FE30A0059875B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -51,6 +76,35 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5B1F8DAD1CA1899E0036764D /* Record */ = {
+			isa = PBXGroup;
+			children = (
+				5B1F8DC81CA23FE40036764D /* RecordHeader.h */,
+				5B1F8DAE1CA189E70036764D /* Record.h */,
+				5B1F8DAF1CA189E70036764D /* Record.m */,
+				5B1F8DB11CA189FE0036764D /* Record+DDL.h */,
+				5B1F8DB21CA189FE0036764D /* Record+DDL.m */,
+				5B1F8DB41CA18A140036764D /* Record+DML.h */,
+				5B1F8DB51CA18A140036764D /* Record+DML.m */,
+				5B1F8DB71CA18A200036764D /* Record+DQL.h */,
+				5B1F8DB81CA18A200036764D /* Record+DQL.m */,
+				5B25540B1CA2F29A004A5D74 /* Record+Additions.h */,
+				5B25540C1CA2F29A004A5D74 /* Record+Additions.m */,
+				5B1F8DC91CA2B3390036764D /* NSObject+Record.h */,
+				5B1F8DCA1CA2B3390036764D /* NSObject+Record.m */,
+			);
+			path = Record;
+			sourceTree = "<group>";
+		};
+		5B1F8DBA1CA18D6D0036764D /* DAO */ = {
+			isa = PBXGroup;
+			children = (
+				5B1F8DBB1CA18D9A0036764D /* DatabaseDAO.h */,
+				5B1F8DBC1CA18D9A0036764D /* DatabaseDAO.m */,
+			);
+			path = DAO;
+			sourceTree = "<group>";
+		};
 		5B5223871C9FE30A0059875B = {
 			isa = PBXGroup;
 			children = (
@@ -75,6 +129,8 @@
 				5B5223971C9FE30A0059875B /* AppDelegate.m */,
 				5B5223991C9FE30A0059875B /* ViewController.h */,
 				5B52239A1C9FE30A0059875B /* ViewController.m */,
+				5B1F8DC21CA19F760036764D /* Person.h */,
+				5B1F8DC31CA19F760036764D /* Person.m */,
 				5B52239C1C9FE30A0059875B /* Main.storyboard */,
 				5B52239F1C9FE30A0059875B /* Assets.xcassets */,
 				5B5223A11C9FE30A0059875B /* LaunchScreen.storyboard */,
@@ -102,6 +158,8 @@
 				5B1F8DA81CA057780036764D /* Database+Transaction.m */,
 				5B1F8DA41CA0488E0036764D /* DatabaseQueue.h */,
 				5B1F8DA51CA0488E0036764D /* DatabaseQueue.m */,
+				5B1F8DBA1CA18D6D0036764D /* DAO */,
+				5B1F8DAD1CA1899E0036764D /* Record */,
 			);
 			path = Database;
 			sourceTree = "<group>";
@@ -178,10 +236,18 @@
 			files = (
 				5B1F8DA61CA0488E0036764D /* DatabaseQueue.m in Sources */,
 				5B52239B1C9FE30A0059875B /* ViewController.m in Sources */,
+				5B1F8DB01CA189E70036764D /* Record.m in Sources */,
 				5B5223981C9FE30A0059875B /* AppDelegate.m in Sources */,
+				5B1F8DB91CA18A200036764D /* Record+DQL.m in Sources */,
 				5B1F8DA91CA057780036764D /* Database+Transaction.m in Sources */,
+				5B25540D1CA2F29A004A5D74 /* Record+Additions.m in Sources */,
+				5B1F8DB31CA189FE0036764D /* Record+DDL.m in Sources */,
+				5B1F8DB61CA18A140036764D /* Record+DML.m in Sources */,
+				5B1F8DC41CA19F760036764D /* Person.m in Sources */,
+				5B1F8DCB1CA2B3390036764D /* NSObject+Record.m in Sources */,
 				5B5223AD1C9FE8180059875B /* Database.m in Sources */,
 				5B5223951C9FE30A0059875B /* main.m in Sources */,
+				5B1F8DBD1CA18D9A0036764D /* DatabaseDAO.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
